@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigus Graphics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #ffffff;
+        }
+        nav {
+            background-color: #1e1e1e;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 5px 15px;
+        }
+        nav ul li a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        nav ul li a:hover {
+            color: #00b7eb;
+        }
+        .container {
+            padding: 20px;
+        }
+        .portfolio {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .portfolio-item {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #444;
+        }
+        .portfolio-item h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+        .portfolio-item p {
+            font-size: 0.9em;
+            color: #b0b0b0;
+        }
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.8em;
+            color: #b0b0b0;
+            border-top: 1px solid #333;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (min-width: 768px) {
+            body {
+                display: none; /* Hide content for non-mobile devices */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nigus Graphics</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Nigus Graphics</h2>
+            <p>Discover stunning graphic designs tailored for your needs.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=Logo+Design" alt="Logo Design">
+                    <h3>Brand Logo</h3>
+                    <p>Modern logo design for a tech startup.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=Poster+Design" alt="Poster Design">
+                    <h3>Event Poster</h3>
+                    <p>Vibrant poster for a music festival.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=Business+Card" alt="Business Card">
+                    <h3>Business Card</h3>
+                    <p>Elegant business card for professionals.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=Social+Media+Graphic" alt="Social Media Graphic">
+                    <h3>Social Media Ad</h3>
+                    <p>Engaging graphic for social media campaigns.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=Brochure+Design" alt="Brochure Design">
+                    <h3>Brochure</h3>
+                    <p>Informative brochure for a travel agency.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Nigus Graphics specializes in creating high-quality, visually appealing designs for businesses and individuals. Our passion is to bring your vision to life.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@nigusgraphics.com</p>
+            <p>Phone: +123-456-7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Nigus Graphics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
